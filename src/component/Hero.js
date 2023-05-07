@@ -23,7 +23,7 @@ const Hero = () => {
                         <p>I'm!</p>
                         <h1 className='fo font-weight-bolder '>Full Stack Web Developer</h1>
                         <div className='garis'></div>
-                        <p className='mt-4 my '>My Name Zulfikar Aji Santoso based in Yogyakarta. I've been a web developer for a year. </p>
+                        <p className='mt-4 my '>My Name Zulfikar Aji Santoso based in Yogyakarta. I've been a front end developer for 2 year and full stack developer for a year. </p>
                         <div className=' d-flex align-items-center'>
                             <a type='button' href='#contact' className=' warna  but  text-decoration-none' >Hire me
                                 <span></span><span></span><span></span>   <span></span>

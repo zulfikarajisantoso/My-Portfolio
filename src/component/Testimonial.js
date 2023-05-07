@@ -22,7 +22,7 @@ const Testimonial = () => {
                                     <div className='row'>
                                         <div className=' col-3 d-flex flex-column   align-items-center justify-content-center' style={{ marginLeft:'20px'}}>
                                             <div className= " d-flex flex-column align-items-center " >
-                                                <p className='ftes  ' >4.8</p>
+                                                <p className='ftes  ' >4.3</p>
                                                 <p className=" nama ftes2"  ><AiFillStar /><AiFillStar /> <AiFillStar /> <AiFillStar /><AiOutlineStar />  </p>
                                                 <img  src={logo} style={{ bottom:'-80px' }}  className='ftes3 rounded-circle ' />
                                             </div>
@@ -33,10 +33,10 @@ const Testimonial = () => {
                                         <div className='col-7'>
                                             <div>   
                                             <div className='nama d-flex align-items-end ftes2'><ImQuotesLeft /></div>
-                                            <i className=" ftes5 text-center " style={{ fontWeight:'900',}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</i>
+                                            <i className=" ftes5 text-center " style={{ fontWeight:'900',}}> Dia selalu bisa bekerja mandiri maupun tim karena mempunyai komunikasi yang baik kepada rekan tim. Dia selalu berusaha untuk ontime dalam pekerjaan dan juga selalu ingin belajar hal baru. Santai dan Tapi serius itulah dia.  </i>
                                             <p className="nama ftes2"><ImQuotesRight /> </p>
                                             </div>
-                                            <h5 className=' ftes6'> - Yadi, <i>Directur</i> </h5>
+                                            <h5 className=' ftes6'> Zulhan Syaputra <i>- Quality Control Manager</i> </h5>
                                         </div>
                                     </div>
                                 </div>                                                        
@@ -49,7 +49,7 @@ const Testimonial = () => {
                                     <div className='row'>
                                         <div className=' col-3 d-flex flex-column   align-items-center justify-content-center'  style={{ marginLeft:'10px'}}>
                                             <div className= " d-flex flex-column align-items-center ">
-                                                <p className='ftes  ' >4.3</p>
+                                                <p className='ftes  ' >4.0</p>
                                                 <p className=" nama ftes2"  ><AiFillStar /><AiFillStar /> <AiFillStar /> <AiFillStar /><AiOutlineStar />  </p>
                                                 <img  src={logo} style={{ bottom:'-80px' }}  className='ftes3 rounded-circle ' />
                                             </div>
@@ -60,10 +60,10 @@ const Testimonial = () => {
                                         <div className='col-7'>
                                             <div>   
                                             <div className='nama d-flex align-items-end ftes2'><ImQuotesLeft /></div>
-                                            <i className=" ftes5 text-center " style={{ fontWeight:'900'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</i>
+                                            <i className=" ftes5 text-center " style={{ fontWeight:'900'}}>Aji ini adalah orang yang bertanggung jawab dalam pekerjaannya, mau belajar dan selalu mencoba hal baru, ini itu di coba semua   . Komunikasi dengan tim sangat baik karena orangnya suka guyon.</i>
                                             <p className="nama ftes2"><ImQuotesRight /> </p>
                                             </div>
-                                            <h5 className=' ftes6'> - Sukri, <i>Operator</i> </h5>
+                                            <h5 className=' ftes6'>Dudi Ali <i>- Programmer</i> </h5>
                                         </div>
                                     </div>
                                 </div>                                                        
@@ -77,7 +77,7 @@ const Testimonial = () => {
                                         <div className=' col-3 d-flex flex-column   align-items-center justify-content-center'  style={{ marginLeft:'10px'}}>
                                             <div className= " d-flex flex-column align-items-center ">
                                                 <p className='ftes  ' >3.5</p>
-                                                <p className=" nama ftes2"  ><AiFillStar /><AiFillStar /> <AiFillStar /> <AiFillStar /><AiOutlineStar />  </p>
+                                                <p className=" nama ftes2"  ><AiFillStar /><AiFillStar /> <AiFillStar /> <AiOutlineStar /><AiOutlineStar />  </p>
                                                 <img  src={logo} style={{ bottom:'-80px' }}  className='ftes3 rounded-circle ' />
                                             </div>
                                         </div>
@@ -87,26 +87,17 @@ const Testimonial = () => {
                                         <div className='col-7'>
                                             <div>   
                                             <div className='nama d-flex align-items-end ftes2'><ImQuotesLeft /></div>
-                                            <i className=" ftes5 text-center " style={{ fontWeight:'900'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</i>
+                                            <i className=" ftes5 text-center " style={{ fontWeight:'900'}}>Programmer baik, suka banget dunia programmer, pinter dan suka IoT juga. Seru kerja bareng dia pokoknya. </i>
                                             <p className="nama ftes2"><ImQuotesRight /> </p>
                                             </div>
-                                            <h5 className=' ftes6'> - Restu, <i>HRD</i> </h5>
+                                            <h5 className=' ftes6'>Hartoyo <i>- Programmer</i> </h5>
                                         </div>
                                     </div>
-                                </div>                                                        
-                                                   
+                                </div>                                                                  
                         </div>
-                    
-                     
-                    
-                    
-                     
-                    </div>
-                   
-                    </div> 
-                  
-                    </div>
-               
+                    </div>                   
+                    </div>                   
+                    </div>               
             </div>    
 
         

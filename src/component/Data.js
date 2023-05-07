@@ -1,6 +1,6 @@
 import logo from "../img/logo.jpeg";
 import hro from "../img/hro.png";
-import { FaReact, FaVuejs, FaLaravel } from "react-icons/fa";
+import { FaReact, FaVuejs, FaLaravel, FaNodeJs } from "react-icons/fa";
 import { SiFirebase, SiJson } from "react-icons/si";
 import { VscJson } from "react-icons/vsc";
 import { AiOutlineHtml5 } from "react-icons/ai";
@@ -13,6 +13,7 @@ import ecomm from "../img/ecomwithadmin.jpg";
 import ig from "../img/ig.png";
 import kuis from "../img/kuis.png";
 import wa from "../img/wa.png";
+import travelmobile from "../img/travelmobile.png";
 
 export const webapp = [
   {
@@ -79,26 +80,11 @@ export const webapp = [
 export const mobileapp = [
   {
     id: 1,
-    Title: "SOON",
-    img: logo,
-    judul: "Soon",
-    tek: [<FaReact />, <SiFirebase />],
-    tgl: "Sept, 2021",
+    Title: "https://play.google.com/store/apps/details?id=com.dealaja.prod",
+    img: travelmobile,
+    judul: "Dealaja App",
+    tek: [<FaReact style={{ marginRight: "20px" }} />, <FaNodeJs />],
+    tgl: "Januari, 2023",
   },
-  {
-    id: 2,
-    Title: "SOON",
-    img: logo,
-    judul: "Soon",
-    tek: [<FaReact />, <SiFirebase />],
-    tgl: "Sept, 2021",
-  },
-  {
-    id: 3,
-    Title: "SOON",
-    img: logo,
-    judul: "Soon",
-    tek: [<FaReact />],
-    tgl: "Sept, 2021",
-  },
+
 ];

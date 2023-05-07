@@ -57,7 +57,7 @@ const Resume = () => {
                         <RiSeparator className='r2' style={{  color:'rgb(79, 150, 231)' }} />
                         <RiSeparator className='r2' style={{ color:'rgb(231, 97, 79)' }} />
                     </div>
-                    <h1 className='nama  '> Resume</h1>
+                    <h1 className='nama  '>Resume</h1>
                 </div>     
         <div className='container d-flex align-items-center mt-5' >
                 <div className='row  d-flex align-items-center' style={{backgroundColor:'rgb(206, 206, 206)',  width:'100vw'}} >
@@ -66,7 +66,7 @@ const Resume = () => {
                                 <Resumels key={idx} title = {li.title} icon={li.icon} active = {select === li.id} id={li.id} setselect={setselect}  />
                             ))}                           
                     </div>
-                    <div className='col-md-7 col-12'>
+                    <div className='col-md-7 col-12 '>
                          {data.map((item, idx) => {
                              return (
                                 <div key={idx} className='kana'>{item.data}</div>

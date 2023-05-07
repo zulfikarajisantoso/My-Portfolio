@@ -4,6 +4,33 @@
 body {
   margin: 0;
   height: 0;
- 
 }
 
+.eduscroll {
+  scrollbar-width: thin;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+}
+
+/* width */
+.eduscroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.eduscroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(86, 0, 0, 0); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.eduscroll::-webkit-scrollbar-thumb {
+  background: rgb(239, 42, 42); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.eduscroll::-webkit-scrollbar-thumb:hover {
+  background: #928f8f; 
+}
