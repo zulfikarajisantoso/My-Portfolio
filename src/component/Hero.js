@@ -7,6 +7,7 @@ import {IoIosArrowDropright} from 'react-icons/io'
 import {SiGithub} from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import Navbarr from '../component/Navbarr'
+import cvaing from '../vid/aji.pdf'
 
 
 const Hero = () => {
@@ -23,12 +24,12 @@ const Hero = () => {
                         <p>I'm!</p>
                         <h1 className='fo font-weight-bolder '>Full Stack Web Developer</h1>
                         <div className='garis'></div>
-                        <p className='mt-4 my '>My Name Zulfikar Aji Santoso based in Yogyakarta. I've been a front end developer for 2 year and full stack developer for a year. </p>
+                        <p className='mt-4 my '>Nama saya Zulfikar Aji Santoso berdomisili di Yogyakarta. Saya telah menjadi seorang Front End Developer selama 3 tahun dan juga Full Stack Developer selama satu tahun. </p>
                         <div className=' d-flex align-items-center'>
                             <a type='button' href='#contact' className=' warna  but  text-decoration-none' >Hire me
                                 <span></span><span></span><span></span>   <span></span>
                             </a>
-                            <a  tyle='button' href='Transkip.pdf' download='CV Transkip.pdf '  className='fs-1  tooltip-right'  data-tooltip="Download CV" style={{color:'rgb(194, 96, 5)', marginLeft:'3px', }}> <IoIosArrowDropright /></a>
+                            <a  href={cvaing} download  className='fs-1  tooltip-right'  data-tooltip="Download CV" style={{color:'rgb(194, 96, 5)', marginLeft:'3px', }}> <IoIosArrowDropright /></a>
                         </div>
                     </div>
                    
@@ -41,7 +42,7 @@ const Hero = () => {
                
                 <div className=' col-md-3 mt-md-5 d-flex flex-column justify-content-center align-items-center '  > 
                    
-                    <h2 className=' nama3 d-none d-md-flex h11 ' style={{ fontWeight:'2000' ,}}>Zulfikar Aji Santoso.</h2>\
+                    <h2 className=' nama3 d-none d-md-flex h11 ' style={{ fontWeight:'2000' ,}}>Zulfikar Aji Santoso</h2>\
                    
                     <div className=' d-flex mt-4 align-items-center'>
                         <a href='https://www.instagram.com/laperrman/' className=' fs-2 text-decoration-none nama1 cursor-pointer'><BsInstagram /></a>

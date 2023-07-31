@@ -117,14 +117,13 @@ export const work = [
           <div className="mt-3">
             <h5 className="r6">
               {" "}
-              <i> AS MEMBER QUALITY CONTROL</i> <br />{" "}
+              <i>QUALITY CONTROL</i> <br />{" "}
               <span className="spesi">
                 {" "}
-                I used to be a member of the laboratory at the contractor
-                company. There I was in charge of making a formula for a mixture
-                of asphalt road or concrete to make it strong when used. Besides
-                that, I also control the quality of the asphalt or concrete
-                produced so that it is maintained and sturdy as desired.{" "}
+                Saya bekerja sebagai staff quality control di salah satu
+                perusahaan kontraktor di Maluku Utara yaitu PT Intimkara. Dimana
+                saya bertugas untuk menjaga dan menguji kualitas aspal ataupun
+                beton sebelum dan selama proses produksinya berlangsung.
               </span>{" "}
             </h5>
           </div>
@@ -153,11 +152,11 @@ export const work = [
               {" "}
               <i> Universitas Mercu Buana Yogyakarta </i> <br />{" "}
               <span className="spesi">
-                Here, I am serving as a teaching assistant for one semester for
-                the Computer Network Laboratory course. I am teaching in 4
-                classes and instructing students on creating LAN networks using
-                Mikrotik.
-              </span>{" "}
+                Disini berperan sebagai asisten dosen selama dua semester untuk
+                mata kuliah Praktikum Jaringan Komputer. Saya mengajar di 5
+                kelas dan mengajarkan tentang pembuatan jaringan LAN dengan
+                Mikrotik
+              </span>
             </h5>
           </div>
         </div>
@@ -185,13 +184,12 @@ export const work = [
               {" "}
               <i> Freelance </i> <br />{" "}
               <span className="spesi">
-                {" "}
-                I work as a freelance worker tasked with creating various
-                websites ranging from cashiers to e-commerce. During my time as
-                a freelance developer, I use several programming languages such
-                as PHP and Javascript. I can create websites using HTML and CSS
-                or using existing frameworks such as React Js, Vue Js, Laravel,
-                and so on.{" "}
+                Saya bekerja sebagai pekerja lepas yang bertugas untuk membuat
+                berbagai website mulai dari casher sampai ecommerce. Selama
+                menjadi freelance developer saya menggunakan beberapa bahasa
+                pemgrograman seperti PHP dan Javascript. Saya dapat membuat
+                website menggunakan HTML dan CSS ataupun dengan Framework yang
+                ada seperti React Js, Vue Js, Laravel dan sebagainya
               </span>{" "}
             </h5>
           </div>
@@ -220,10 +218,10 @@ export const work = [
               {" "}
               <i> Full Stack Developer</i> <br />{" "}
               <span className="spesi">
-                I work on creating the admin homepage and am fully responsible
-                for managing the existing data, serving as the Back End. Here,
-                we develop a secondhand goods buying and selling application
-                called DealAja based on the Android platform.
+                Disini bekerja dalam membuat website untuk halaman depan admin
+                dan juga sepenuhnya bertanggung jawab dalam mengelola data yang
+                ada atau sebagai Back End. Disini kami membuat aplikasi jual
+                beli barang bekas yang bernama DealAja berbasis android.
               </span>{" "}
             </h5>
           </div>
@@ -235,15 +233,12 @@ export const work = [
 export const skill = [
   {
     data: [
-      <div
-        className=" d-flex align-items-center justify-content-center"
-        style={{ height: "20rem" }}
-      >
-        <div className="d-flex flex-column align-items-center justify-content-center">
-          <div className="d-flex justify-content-center">
+     
+        <div className="d-flex flex-column align-items-center justify-content-center ">
+          <div className="d-flex justify-content-center gap-3">
             <div
               className=" d-flex flex-column align-items-center justify-content-center r9 "
-              style={{ backgroundColor: "#181828", borderRadius: "70px" }}
+              style={{ backgroundColor: "#181828", borderRadius: "70px"}}
             >
               <ImHtmlFive2
                 className="r10"
@@ -257,7 +252,7 @@ export const skill = [
               </p>
             </div>
             <div
-              className=" d-flex flex-column align-items-center justify-content-center r9  raa"
+              className=" d-flex flex-column align-items-center justify-content-center r9  "
               style={{ backgroundColor: "#181828", borderRadius: "70px" }}
             >
               <DiCss3
@@ -287,10 +282,10 @@ export const skill = [
               </p>
             </div>
             <div
-              className=" d-flex flex-column align-items-center justify-content-center r9  raaa"
+              className=" d-flex flex-column align-items-center justify-content-center r9  "
               style={{ backgroundColor: "#181828", borderRadius: "70px" }}
             >
-              <SiAdobepremierepro
+              <DiNodejsSmall
                 className="r10"
                 style={{ color: "rgb(206, 206, 206)", marginTop: "20px" }}
               />
@@ -298,11 +293,12 @@ export const skill = [
                 className="cob"
                 style={{ color: "rgb(206, 206, 206)", marginTop: "10px" }}
               >
-                40%
+                50%
               </p>
             </div>
           </div>
-          <div className="d-flex justify-content-center mt-1">
+
+          <div className="d-flex justify-content-center mt-1 gap-3">
             <div
               className=" d-flex flex-column align-items-center justify-content-center r9  "
               style={{ backgroundColor: "#181828", borderRadius: "70px" }}
@@ -318,23 +314,9 @@ export const skill = [
                 70%
               </p>
             </div>
+
             <div
-              className=" d-flex flex-column align-items-center justify-content-center r9  "
-              style={{ backgroundColor: "#181828", borderRadius: "70px" }}
-            >
-              <DiNodejsSmall
-                className="r10"
-                style={{ color: "rgb(206, 206, 206)", marginTop: "20px" }}
-              />
-              <p
-                className="cob"
-                style={{ color: "rgb(206, 206, 206)", marginTop: "10px" }}
-              >
-                70%
-              </p>
-            </div>
-            <div
-              className=" d-flex flex-column align-items-center justify-content-center r9 raa"
+              className=" d-flex flex-column align-items-center justify-content-center r9 "
               style={{ backgroundColor: "#181828", borderRadius: "70px" }}
             >
               <FaLaravel
@@ -364,7 +346,7 @@ export const skill = [
               </p>
             </div>
           </div>
-        </div>
+       
       </div>,
     ],
   },

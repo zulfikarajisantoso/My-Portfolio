@@ -66,10 +66,10 @@ const Resume = () => {
                                 <Resumels key={idx} title = {li.title} icon={li.icon} active = {select === li.id} id={li.id} setselect={setselect}  />
                             ))}                           
                     </div>
-                    <div className='col-md-7 col-12 '>
+                    <div className='col-md-7 mt-md-0 col-12 mt-2 '>
                          {data.map((item, idx) => {
                              return (
-                                <div key={idx} className='kana'>{item.data}</div>
+                                <div key={idx} className='' style={{height:"20rem", borderRadius:"10px"}}>{item.data}</div>
                              )
                          })}
                     </div>
